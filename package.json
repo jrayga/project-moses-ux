@@ -1,0 +1,19 @@
+{
+  "name": "project-moses",
+  "version": "1.0.0",
+  "description": "Project Moses is a Crisis Response Toolbox that aims to be an all-in-one web dashboard for Filipinos in times of calamity and crisis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bridge360",
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "^1.0.2",
+    "grunt-cli": "^1.3.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-uglify-es": "github:gruntjs/grunt-contrib-uglify#harmony",
+    "grunt-ng-annotate": "^3.0.0"
+  }
+}

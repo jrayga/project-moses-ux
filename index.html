@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="onload">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- SEO/SMO Values-->
+    <title>Welcome to Project Moses | Stay Safe, Philippines!</title>
+    <meta itemprop="name" content="Project Moses">
+    <meta itemprop="url" content="https://projectmoses.ph/">
+    <meta name="description"
+        content="Project Moses is a Crisis Response Toolbox that aims to be an all-in-one web dashboard for Filipinos in times of calamity and crisis.">
+
+    <!-- Schema -->
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image:alt" content="Project Moses">
+    <meta name="twitter:site" content="">
+
+    <!-- Facebook Opengraph data -->
+    <meta property="og:title" content="Welcome to Project Moses">
+    <meta property="og:description"
+        content="Project Moses is a Crisis Response Toolbox that aims to be an all-in-one web dashboard for Filipinos in times of calamity and crisis.">
+    <meta property="og:image" content="./ASSETS/img/project-moses-social.jpg">
+    <meta property="og:url" itemprop="url" content="https://projectmoses.ph/">
+    <meta property="og:site_name" content="Project Moses">
+    <meta property="og:type" content="website">
+
+    <!-- FAVICONS START -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./ASSETS/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./ASSETS/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./ASSETS/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./ASSETS/favicons/site.webmanifest">
+    <link rel="mask-icon" href="./ASSETS/favicons/safari-pinned-tab.svg" color="#299bd7">
+    <meta name="apple-mobile-web-app-title" content="Project Moses">
+    <meta name="application-name" content="Project Moses">
+    <meta name="msapplication-TileColor" content="#299bd7">
+    <meta name="theme-color" content="#299bd7">
+    <!-- FAVICONS END -->
+
+    <!-- GOOGLE ANALYTICS START -->
+
+    <!-- GOOGLE ANALYTICS END -->
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="./ASSETS/css/main.css">
+    <link rel="stylesheet" href="./ASSETS/css/responsive.css">
+    <link rel="stylesheet" href="./ASSETS/css/icons.css">
+    <link rel="stylesheet" href="./ASSETS/css/animations.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./ASSETS/plugins/css/bootstrap-grid/bootstrap-grid.min.css">
+
+    <!-- AngularJS Main -->
+    <script src="./ASSETS/plugins/js/angularjs/angular.min.js"></script>
+
+
+</head>
+
+<body class="preload-transitions" ng-cloak>
+    <header>
+        <div class="header-logo">
+            <img src="./ASSETS/img/main-logo.png" alt="Project Moses Logo" title="Project Moses Logo">
+        </div>
+        <div class="header-buttons">
+            <div class="button triage">
+                <a href="/triage">Feeling <strong>Sick?</strong></a>
+            </div>
+            <div class="button hospital">
+                <a href="">Hospital Login</a>
+            </div>
+        </div>
+    </header>
+    <nav class="mobile">
+        <div class="nav-bar" id="mobile-nav-menulink"><span class="icon-th-menu icon left"></span>MENU</div>
+        <div class="nav-dropdown" id="mobile-nav-dropdown">
+            <li><a href="#/">Home</a></li>
+            <li><a href="">Self-Triage</a></li>
+            <li class="navlink" id="navlink-trackers">Real-Time Trackers</li>
+            <ul class="secondary-dropdown" id="nav-trackers">
+                <li><a href="">DOH nCoV Tracker</a></li>
+                <li><a href="">JHU Interactive Map</a></li>
+            </ul>
+            <li><a href="">Hospital Directory</a></li>
+            <li class="navlink" id="navlink-citizens">Citizens Patrol</li>
+            <ul class="secondary-dropdown" id="nav-citizens">
+                <li><a href="">Clinics</a></li>
+                <li><a href="">Grocery Stores</a></li>
+                <li><a href="">Pharamacies</a></li>
+                <li><a href="">Roads</a></li>
+                <li><a href="">Submit Report</a></li>
+            </ul>
+            <li class="navlink" id="navlink-news">Latest News</li>
+            <ul class="secondary-dropdown" id="nav-news">
+                <li><a href="">Government Announcements</a></li>
+                <li><a href="">News Media</a></li>
+            </ul>
+            <li class="navlink" id="navlink-resources">Resources</li>
+            <ul class="secondary-dropdown" id="nav-resources">
+                <li><a href="">Official Statements Archive</a></li>
+                <li><a href="">FAQs</a></li>
+                <li><a href="">Emerging Research</a></li>
+                <li><a href="">Links to Agencies</a></li>
+                <li><a href="">COVID-19 Apps</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="wide">
+        <div class="main-nav-bar">
+            <li><a href="#/">Home</a></li>
+            <li><a href="">Self-Triage</a></li>
+            <li class="navlink" id="navlink-trackers-w">Real-Time Trackers</li>
+            <li><a href="">Hospital Directory</a></li>
+            <li class="navlink" id="navlink-citizens-w">Citizens Patrol</li>
+            <li class="navlink" id="navlink-news-w">Latest News</li>
+            <li class="navlink" id="navlink-resources-w">Resources</li>
+        </div>
+        <div class="nav-panel" id="nav-trackers-w">
+            <div class="panel-container">
+                <div class="col1">
+                    <h4>Real-Time COVID-19 Tracker Dashboards</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, debitis. Amet excepturi
+                        sapiente possimus harum quo ea, eos reiciendis asperiores recusandae. Suscipit, debitis. Amet
+                        excepturi sapiente possimus harum quo ea, eos reiciendis asperiores recusandae dignissimos
+                        corporis, maxime commodi suscipit quibusdam nesciunt? Quas, qui.</p>
+                </div>
+                <div class="col2 trackers">
+                    <div class="card">
+                        <img src="./ASSETS/img/doh.png" alt="">
+                        <h5>Department of Health<br />nCoV Tracker</h5>
+                    </div>
+                    <div class="card">
+                        <img src="./ASSETS/img/jhu.png" alt="">
+                        <h5>Johns Hopkins University<br />Interactive Map</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-panel" id="nav-citizens-w">
+            <div class="panel-container">
+                <div class="col1">
+                    <h4>Citizens Patrol</h4>
+                    <p>We continuously collect and collate crowdsourced information about establishments and
+                        infrastructure so you know which ones are still open for business and use.</p>
+                    <p>If you have any information about a location, please contribute by submitting a Citizen Report!
+                    </p>
+                </div>
+                <div class="col2 citizens">
+                    <div class="clinic-bar"></div>
+                    <div class="card">
+                        <img src="./ASSETS/img/icon-clinic.png" alt="">
+                        <h6>Clinics</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./ASSETS/img/icon-grocery.png" alt="">
+                        <h6>Grocery<br />Stores</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./ASSETS/img/icon-drugstore.png" alt="">
+                        <h6>Pharamacies</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./ASSETS/img/icon-road.png" alt="">
+                        <h6>Roads</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./ASSETS/img/icon-submit-report.png" alt="">
+                        <h6>Submit<br />Citizen's Report</h6>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="nav-panel" id="nav-news-w">
+            <div class="panel-container">
+                <div class="col1">
+                    <h4>Latest News and Announcements</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, debitis. Amet excepturi
+                        sapiente possimus harum quo ea, eos reiciendis asperiores recusandae. Suscipit, debitis. Amet
+                        excepturi sapiente possimus harum quo ea, eos reiciendis asperiores recusandae dignissimos
+                        corporis, maxime commodi suscipit quibusdam nesciunt? Quas, qui.</p>
+                </div>
+                <div class="col2 news">
+                    <div class="card">
+                        <img src="./ASSETS/img/govt-news.png" alt="">
+                        <h5>Government Announcements</h5>
+                    </div>
+                    <div class="card">
+                        <img src="./ASSETS/img/news-media.png" alt="">
+                        <h5>News Media</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-panel" id="nav-resources-w">
+            <div class="panel-container">
+                <div class="col1 resources">
+                    <h4>Resources and Tools</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, debitis. Amet excepturi
+                        sapiente possimus harum quo ea, eos reiciendis asperiores recusandae. Suscipit, debitis. Amet
+                        excepturi sapiente possimus harum quo ea, eos reiciendis asperiores recusandae dignissimos
+                        corporis, maxime commodi suscipit quibusdam nesciunt? Quas, qui.</p>
+                </div>
+                <div class="col2">
+                    <li><a href="">Official Statements Archive</a></li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">Emerging Research</a></li>
+                    <li><a href="">Links to Agencies</a></li>
+                    <li><a href="">COVID-19 Apps</a></li>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main" ng-view resize></main>
+
+    <footer>
+        <section class="kneeler">
+            <div class="kneeler-proper">
+                <div class="about">
+                    <h4>About</h4>
+                    <p>Project Moses is a Crisis Response Toolbox that aims to be an all-in-one web dashboard for
+                        Filipinos in times of calamity and crisis mainly and should still be relevant even in times of
+                        peace. We are starting with a Virtual Triage that could match patients with hospitals. It is a
+                        publicly accessible collaboration tool using Information Communication Technology (ICT) meant to
+                        connect COVID-19 response actors.</p>
+                    <a href="">Learn More about the Project ></a>
+                </div>
+                <div class="kneeler-links">
+                    <div class="col1">
+                        <h4>Tools</h4>
+                        <li><a href="">Self-Triage Tool</a></li>
+                        <li><a href="">Hospital Directory</a></li>
+                        <li><a href="">Hospital Portal</a></li>
+                        <li><a href="">Citizens Patrol</a></li>
+                    </div>
+                    <div class="col2">
+                        <h4>News</h4>
+                        <li><a href="">Government Announcements</a></li>
+                        <li><a href="">News Media Aggregator</a></li>
+                    </div>
+                    <div class="col3">
+                        <h4>Resources</h4>
+                        <li><a href="">Official Statements Archive</a></li>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Emerging Research</a></li>
+                        <li><a href="">Links to Agencies</a></li>
+                        <li><a href="">COVID-19 Apps</a></li>
+                    </div>
+                </div>
+            </div>
+            <img src="./ASSETS/img/logo-white.png" alt="" class="white-logo">
+        </section>
+        <section class="foot">
+            <p>2020 Copyright Bridge 360. All Rights Reserved.</p>
+        </section>
+
+    </footer>
+
+    <script src="./ASSETS/js/main.js"></script>
+    <script src="./ASSETS/plugins/js/jquery/jquery.min.js"></script>
+
+    <!-- AngularJS Plugins -->
+    <script src="./ASSETS/plugins/js/angularjs/angular-route.min.js"></script>
+
+    <!-- AngularJS Module, Controllers & Factories-->
+    <script src="./JS/module.js"></script>
+
+    <script src="./JS/controllers/HomePage.js"></script>
+
+    <script src="./JS/directives/resize.js"></script>
+
+</body>
+
+</html>
